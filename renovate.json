@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true,
+      "automergeType": "pr-comment",
+      "automergeComment": "Bot: update renovate+"
+    }
+  ]
+}
