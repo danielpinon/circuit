@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "191db01c7d9d0eb72ea9b321e7fbb482",
+    "content-hash": "a512cb06c84027dd44b578e75fcdea07",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1916,28 +1916,28 @@
         },
         {
             "name": "prettus/l5-repository",
-            "version": "2.7.6",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/andersao/l5-repository.git",
-                "reference": "2bd56801c78becf6a26b0d795312d879e55730cd"
+                "reference": "bdaf12dcf1fcc2637ccbe06999f789a9ff522fea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andersao/l5-repository/zipball/2bd56801c78becf6a26b0d795312d879e55730cd",
-                "reference": "2bd56801c78becf6a26b0d795312d879e55730cd",
+                "url": "https://api.github.com/repos/andersao/l5-repository/zipball/bdaf12dcf1fcc2637ccbe06999f789a9ff522fea",
+                "reference": "bdaf12dcf1fcc2637ccbe06999f789a9ff522fea",
                 "shasum": ""
             },
             "require": {
-                "illuminate/config": "~5.0|~6.0|~7.0|^8.0",
-                "illuminate/console": "~5.0|~6.0|~7.0|^8.0",
-                "illuminate/database": "~5.0|~6.0|~7.0|^8.0",
-                "illuminate/filesystem": "~5.0|~6.0|~7.0|^8.0",
-                "illuminate/http": "~5.0|~6.0|~7.0|^8.0",
-                "illuminate/pagination": "~5.0|~6.0|~7.0|^8.0",
-                "illuminate/support": "~5.0|~6.0|~7.0|^8.0",
-                "illuminate/validation": "~5.0|~6.0|~7.0|^8.0",
-                "prettus/laravel-validation": "~1.1|~1.2"
+                "illuminate/config": "~5.0|~6.0|~7.0|^8.0|^9.0",
+                "illuminate/console": "~5.0|~6.0|~7.0|^8.0|^9.0",
+                "illuminate/database": "~5.0|~6.0|~7.0|^8.0|^9.0",
+                "illuminate/filesystem": "~5.0|~6.0|~7.0|^8.0|^9.0",
+                "illuminate/http": "~5.0|~6.0|~7.0|^8.0|^9.0",
+                "illuminate/pagination": "~5.0|~6.0|~7.0|^8.0|^9.0",
+                "illuminate/support": "~5.0|~6.0|~7.0|^8.0|^9.0",
+                "illuminate/validation": "~5.0|~6.0|~7.0|^8.0|^9.0",
+                "prettus/laravel-validation": "~1.1|~1.2|~1.3|~1.4"
             },
             "suggest": {
                 "league/fractal": "Required to use the Fractal Presenter (0.12.*).",
@@ -1969,7 +1969,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Laravel 5|6|7|8 - Repositories to  the database layer",
+            "description": "Laravel 5|6|7|8|9 - Repositories to  the database layer",
             "homepage": "http://andersao.github.io/l5-repository",
             "keywords": [
                 "cache",
@@ -1985,25 +1985,25 @@
                 "source": "https://github.com/andersao/l5-repository",
                 "wiki": "https://github.com/andersao/l5-repository"
             },
-            "time": "2021-04-22T21:15:10+00:00"
+            "time": "2022-02-21T11:19:35+00:00"
         },
         {
             "name": "prettus/laravel-validation",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/andersao/laravel-validator.git",
-                "reference": "cce3c273c9d44f77de031dc4dedd261ab936c497"
+                "reference": "45d6b64e35d966aa0866d6f5fd22ecbb33ea41d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andersao/laravel-validator/zipball/cce3c273c9d44f77de031dc4dedd261ab936c497",
-                "reference": "cce3c273c9d44f77de031dc4dedd261ab936c497",
+                "url": "https://api.github.com/repos/andersao/laravel-validator/zipball/45d6b64e35d966aa0866d6f5fd22ecbb33ea41d9",
+                "reference": "45d6b64e35d966aa0866d6f5fd22ecbb33ea41d9",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "~5.4|^6.0|^7.0|^8.0",
-                "illuminate/validation": "~5.4|^6.0|^7.0|^8.0",
+                "illuminate/support": "~5.4|^6.0|^7.0|^8.0|^9.0",
+                "illuminate/validation": "~5.4|^6.0|^7.0|^8.0|^9.0",
                 "php": ">=5.4.0"
             },
             "type": "library",
@@ -2035,7 +2035,7 @@
                 "source": "https://github.com/andersao/laravel-validation",
                 "wiki": "https://github.com/andersao/laravel-validation"
             },
-            "time": "2020-09-21T20:20:45+00:00"
+            "time": "2022-02-21T11:18:30+00:00"
         },
         {
             "name": "psr/container",
@@ -7865,5 +7865,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
